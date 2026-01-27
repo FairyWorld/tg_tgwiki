@@ -33,7 +33,32 @@ Telegram为短信价格较贵的地区推出了SMS Fee，即登录时需要支�
 
 **解决办法**：
 
-- 已注册账号，登录新设备遇到，可以通过第三方客户端绕过，但是需要有其他已登录的设备。
-- 未注册的号，可以通过切换ip，美国、日本、新加坡ip，关闭定位加全局尝试。
+- 您可以通过切换ip，美国、日本、新加坡ip，关闭定位加全局尝试。
 - 如果你想要支付SMS Fee，请注意：Google Play绑定大陆银行卡，调用Google Play付款，必须是香港ip。如果有visa、万事达或者虚拟卡，不必强制要求香港ip。
+
+### 已有旧设备在线，但新设备登录时仍然发送短信？
+
+该情况的具体触发原因尚不清楚，目前推测与Telegram的风控机制有关。~~（也可能是杜叔叔缺钱了）~~
+
+**解决方法：**
+
+- 使用第三方客户端绕过（通常第三方客户端默认发送验证码到已登录设备）；
+
+- 尝试将Telegram回退到之前的版本，您可以在登录后重新把应用更新到最新版本
+
+  ::: warning
+
+  回退版本需要卸载新版本并重新安装Telegram，该操作会导致现有的应用数据被清空！请谨慎操作！
+
+  :::
+
+  ::: details 附：几个Telegram之前的版本号及下载地址
+
+  | 版本号  | 下载地址                                                     |
+  | ------- | ------------------------------------------------------------ |
+  | 11.13.1 | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-11-13-1-release/) |
+  | 11.3.1  | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-11-3-1-release/) |
+  | 10.12.0 | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-10-12-0-release/) |
+
+  :::
 
