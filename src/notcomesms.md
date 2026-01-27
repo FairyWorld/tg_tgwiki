@@ -42,9 +42,9 @@ Telegram为短信价格较贵的地区推出了SMS Fee，即登录时需要支�
 
 **解决方法：**
 
-- 使用第三方客户端绕过（通常第三方客户端默认发送验证码到已登录设备）；
+- 使用 [第三方客户端](./thirdparty.html) 绕过（通常第三方客户端默认发送验证码到已登录设备）；
 
-- 尝试将Telegram回退到之前的版本，您可以在登录后重新把应用更新到最新版本
+- 尝试将Telegram回退到之前的版本，您可以在登录后重新把应用更新到最新版本。
 
   ::: warning
 
@@ -56,9 +56,9 @@ Telegram为短信价格较贵的地区推出了SMS Fee，即登录时需要支�
 
   | 版本号  | 下载地址                                                     |
   | ------- | ------------------------------------------------------------ |
-  | 11.13.1 | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-11-13-1-release/) |
-  | 11.3.1  | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-11-3-1-release/) |
-  | 10.12.0 | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-10-12-0-release/) |
+  | 11.13.1 | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-11-13-1-release/) / [官方频道](https://t.me/TAndroidAPK/468) |
+  | 11.3.1  | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-11-3-1-release/) / [官方频道](https://t.me/TAndroidAPK/422) |
+  | 10.12.0 | [apkmirror](https://www.apkmirror.com/apk/telegram-fz-llc/telegram/telegram-10-12-0-release/) / [官方频道](https://t.me/TAndroidAPK/376) |
 
   :::
 
