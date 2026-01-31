@@ -29,6 +29,10 @@ Telegram官方不会主动联系你！Telegram不存在中文客服！只有手�
 
 删除账号将清除所有数据，该操作不可逆！详情请参阅 [此处](./deleteaccount.html) 。
 
+### 如何通过tdata登录
+
+如果本地已经有这个文件夹，不要用新的tdata文件夹去覆盖它！在Win上下载 [TG_Portable](https://desktop.telegram.org) ，将解压得到的`Telegram.exe`与tdata文件夹置于相同目录，双击启动Telegram即可。
+
 ## 聊天相关
 
 ### 无法发送私聊消息？
