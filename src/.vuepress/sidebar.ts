@@ -169,7 +169,7 @@ export default sidebar({
         {
           text: "私聊机器人搭建",
           icon: "reply-all",
-          link: "/livegram.html"
+          link: "/relaygo.html"
         },
         {
           text: "小程序",
@@ -274,6 +274,11 @@ export default sidebar({
           text: "邮箱登录",
           icon: "envelope-open-text",
           link: "/emaillogin.html"
+        },
+        {
+          text: "通行密钥",
+          icon: "key",
+          link: "/passkey.html"
         },
         {
           text: "未收到验证码",

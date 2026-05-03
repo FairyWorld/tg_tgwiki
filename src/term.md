@@ -24,11 +24,11 @@ head:
 
    :::
 
-3. 可以使用机器人查看，比如：[@getidsbot](https://t.me/getidsbot) [@Sean_Bot](https://t.me/Sean_Bot) [@userinfobot](https://t.me/userinfobot)[ @username_to_id_bot](https://t.me/username_to_id_bot)
+3. 可以使用机器人查看，比如：[@getidsbot](https://t.me/getidsbot) [@Sean_Bot](https://t.me/Sean_Bot) [@userinfobot](https://t.me/userinfobot) [ @username_to_id_bot](https://t.me/username_to_id_bot)
 
     ::: details 操作演示
 
-    ![tfa-id.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/id.jpg)
+    ![android-id.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/id.jpg)
 
     :::
 

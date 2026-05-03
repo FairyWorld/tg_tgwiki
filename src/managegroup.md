@@ -27,9 +27,9 @@ head:
 
 ::: details 界面截图
 
-![tfa-managegroup1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/managegroup1.jpg)
+![android-managegroup1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managegroup1.jpg)
 
-![tfa-managegroup2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/managegroup2.jpg)
+![android-managegroup2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managegroup2.jpg)
 
 :::
 
@@ -59,7 +59,7 @@ head:
 
   ::: details 操作演示
 
-  ![tfa-managegroup3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/managegroup3.jpg)
+  ![android-managegroup3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managegroup3.jpg)
 
   :::
 
@@ -67,7 +67,7 @@ head:
 
   ::: details 操作演示
 
-  ![tfa-managegroup4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/managegroup4.jpg)
+  ![android-managegroup4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managegroup4.jpg)
 
   :::
 
@@ -88,7 +88,7 @@ head:
 
 ::: details 操作演示
 
-![tfa-managegroup5.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/managegroup5.jpg)
+![android-managegroup5.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managegroup5.jpg)
 
 :::
 
@@ -109,7 +109,7 @@ head:
 
 ::: details 操作演示
 
-![tfa-managegroup6.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/managegroup6.jpg)
+![android-managegroup6.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managegroup6.jpg)
 
 :::
 

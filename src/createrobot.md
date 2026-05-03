@@ -9,12 +9,15 @@ head:
 
 机器人是Telegram的特色功能之一。Telegram提供开放的api接口，允许开发者制作自己的机器人。
 
+本文章将介绍两种创建机器人和管理机器人的方法，其中方法一适用于全部版本，方法二仅适用于较新版本，但方案二有图形界面、上手更友好。
+
 ## 创建机器人
 
-1. 打开Telegram
-2. 搜索 [@BotFather](https://t.me/botfather)
+### 方法一
+
+1. 打开Telegram并搜索 [@BotFather](https://t.me/botfather)
 3. 点击`START`（开始）
-4. 点击`Menu`（菜单）->点击`/newbot`（新机器人）
+4. 输入`/`唤起菜单->点击`/newbot`（新机器人）
     BotFather 回复：`Alright, a new bot. How are we going to call it? Please choose a name for your bot.`
 5. 输入机器人名称（自定义）
     BotFather 回复：`Good. Now let's choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.`
@@ -23,7 +26,7 @@ head:
 
 ::: details 操作演示
 
-![tfa-createrobot1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/createrobot1.jpg)
+![android-createrobot1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/createrobot1.jpg)
 
 :::
 
@@ -33,82 +36,112 @@ head:
 
 :::
 
+### 方法二
+
+1. 打开Telegram并搜索 [@BotFather](https://t.me/botfather)
+2. 点击`START`（开始）
+3. 点击输入框左侧 `Open` 按钮打开小程序
+4. 点击 `Create a New Bot` （创建一个新机器人），输入机器人信息，完成创建
+5. 创建完成后会显示 API Token，请勿泄露！
+
+::: details 操作演示
+
+![android-createrobot2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/createrobot2.jpg)
+
+:::
+
 ## 管理机器人
 
-1. 点击`Menu`（菜单）-> 点击 `/mybots`（我的机器人）
+### 方法一
+
+1. 输入`/`唤起菜单-> 点击 `/mybots`（我的机器人）
 
 2. 点击机器人用户名
 
-   ::: details 界面截图
+   ::: details 操作演示
 
-   ![tfa-createrobot2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/createrobot2.jpg)
+   ![android-managerobot1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managerobot1.jpg)
 
    :::
 
-   - API Token（API令牌，用于控制机器人）
+### 方法二
 
-   - Edit bot（编辑bot）
+1. 点击输入框左侧 `Open` 按钮打开小程序
 
-     - Edit Name（编辑名称）
-     - Edit About（编辑关于，内容显示在机器人简介处）
-     - Edit Description（编辑说明，用户会在启用机器人前“它能做什么”中看到）
-     - Edit Description Pecture（编辑描述图片）
-     - Edit Botpic（编辑机器人头像）
-     - Edit Commands（编辑命令，可以在此处添加/修改命令，如`/help`等）
+2. 在机器人列表中选择需要管理的机器人
 
-   - Bot settings（bot设置）
+   ::: details 操作演示
 
-     - lnline mode（内联模式，开启后在输入框@机器人可以使用内联功能）
-   
-     - Allow Groups?（允许将机器人拉入群组吗？）
-   
-     - Group Privacy（群组隐私，默认开启，机器人未收到命令不会读取群组消息内容）
-   
-     - Group Admin Rights（群组管理员权限，开启后拉入群组时需要授予管理员权限）
-   
-     - Channle Admin Rights（频道管理员权限，开启后拉入频道时需要授予管理员权限）
+   ![android-managerobot2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/managerobot2.jpg)
 
-     - Payments（付款方式，您可以在此处添加付款方式）
+   :::
 
-     - Domain（域名，您可以在此处将域名绑定至机器人）
-   
-     - Menu Button（菜单按钮，显示在机器人输入框下方）
-   
-     - Configure Mini App（设置迷你应用程序）
-   
-       ::: info
-   
-       关于迷你应用程序的详细配置，请参阅 [此处](./miniapp.html) 。
-   
-       :::
-   
-     - Paid Broadcast（付费广播，要求机器人星币余额不少于`100,000`星币且月活数超过`100,000`）
+### 支持设置的项目
 
-     - Back to bot（返回机器人）
+- API Token（API令牌，用于控制机器人）
 
-   - Payments（付款方式） 
-   
-   - Transfer Ownership（转让所有权）
-     BotFather 回复：`You can transfer bot ownership to another Telegram user.`（`您可以将机器人所有权转让给其他Telegram用户。`）
-   
-     1. 点击 Choose recipient（选择收件人）
-   
-        BotFather 回复：`Please share the new owner's contact or their username.`（`请分享新所有者的联系方式或用户名。`）
-   
-     2. 发送收件人ID（收件人必须先前给机器人发送过1条消息）
-   
-        BotFather 回复：`You are about to transfer ownership of the bot @abcbot to `收件人名称.....（`您即将将机器人@abcbot 的所有权转让给 `某某人.....）
-   
-     3. 点击 `Yes，I am sure, Proceed.`（`是的，我确定，继续。`）
-        （如已设置需输入）
-   
-   - Delete Bot（删除机器人，该操作无法撤销）
-   
-   - « Back to Bots List（返回机器人列表）
+- Edit bot（编辑bot）
+
+  - Edit Name（编辑名称）
+  - Edit About（编辑关于，内容显示在机器人简介处）
+  - Edit Description（编辑说明，用户会在启用机器人前“它能做什么”中看到）
+  - Edit Description Pecture（编辑描述图片）
+  - Edit Botpic（编辑机器人头像）
+  - Edit Commands（编辑命令，可以在此处添加/修改命令，如`/help`等）
+
+- Bot settings（bot设置）
+
+  - lnline mode（内联模式，开启后在输入框@机器人可以使用内联功能）
+
+  - Allow Groups?（允许将机器人拉入群组吗？）
+
+  - Group Privacy（群组隐私，默认开启，机器人未收到命令不会读取群组消息内容）
+
+  - Group Admin Rights（群组管理员权限，开启后拉入群组时需要授予管理员权限）
+
+  - Channle Admin Rights（频道管理员权限，开启后拉入频道时需要授予管理员权限）
+
+  - Payments（付款方式，您可以在此处添加付款方式）
+
+  - Domain（域名，您可以在此处将域名绑定至机器人）
+
+  - Menu Button（菜单按钮，显示在机器人输入框下方）
+
+  - Configure Mini App（设置迷你应用程序）
+
+    ::: info
+
+    关于迷你应用程序的详细配置，请参阅 [此处](./miniapp.html) 。
+
+    :::
+
+  - Paid Broadcast（付费广播，要求机器人星币余额不少于`100,000`星币且月活数超过`100,000`）
+
+  - Back to bot（返回机器人）
+
+- Payments（付款方式） 
+
+- Transfer Ownership（转让所有权）
+  BotFather 回复：`You can transfer bot ownership to another Telegram user.`（`您可以将机器人所有权转让给其他Telegram用户。`）
+
+  1. 点击 Choose recipient（选择收件人）
+
+     BotFather 回复：`Please share the new owner's contact or their username.`（`请分享新所有者的联系方式或用户名。`）
+
+  2. 发送收件人ID（收件人必须先前给机器人发送过1条消息）
+
+     BotFather 回复：`You are about to transfer ownership of the bot @abcbot to `收件人名称.....（`您即将将机器人@abcbot 的所有权转让给 `某某人.....）
+
+  3. 点击 `Yes，I am sure, Proceed.`（`是的，我确定，继续。`）
+     （如已设置需输入）
+
+- Delete Bot（删除机器人，该操作无法撤销）
+
+- « Back to Bots List（返回机器人列表）
 
 ::: info
 
-如果您想要搭建一个私聊机器人，接下来请阅读 [Telegram搭建私聊机器人](./livegram.html)
+如果您想要搭建一个私聊机器人，接下来请阅读 [Telegram搭建私聊机器人](./relaygo.html)
 
 :::
 

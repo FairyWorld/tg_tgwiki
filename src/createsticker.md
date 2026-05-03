@@ -11,7 +11,9 @@ head:
 
 **Telegram的贴纸管理机器人是 [@Stickers](https://t.me/Stickers) 。**
 
-## 创建静态贴纸
+## 创建静态贴纸包
+
+### 方法一
 
 1. 发送 `/newpack` 命令，等待机器人回应后发送你想要的贴纸名称，创建一个贴纸集合的名字（支持中文）。
 
@@ -37,9 +39,9 @@ head:
 
    ::: details 操作演示
 
-   ![tfa-createsticker1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/createsticker1.jpg)
+   ![android-createsticker1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/createsticker1.jpg)
 
-   ![tfa-createsticker2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/createsticker2.jpg)
+   ![android-createsticker2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/createsticker2.jpg)
 
    :::
 
@@ -57,9 +59,23 @@ head:
 
 :::
 
-## 创建动态贴纸
+### 方法二
 
-动态贴纸的创作比较复杂，目前只给出了通过命令 `/newvideo` 创建的动态视频贴纸
+1. 点击输入框左侧的 `Open` 按钮打开小程序。
+2. 点击 `Create Sticker Pack` 创建新的贴纸包。
+3. 输入贴纸包名称并上传贴纸（贴纸要求同上）。
+4. 为每一张贴纸选择对应的emoji表情（支持多个）。
+5. 点 `Save` 保存，全部完成后，点击 `Publish` 设置分享地址并发布贴纸包。
+
+::: details 操作演示
+
+![android-createsticker3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/createsticker3.jpg)
+
+:::
+
+## 创建动态贴纸包
+
+动态贴纸的创作比较复杂，您可以通过命令 `/newvideo` ，或使用上面“方法二”中的小程序，创建动态视频贴纸
 
 - 对于贴纸，一面的大小必须正好是 512 像素——另一面可以是 512 像素或更小。
 - 对于表情符号，视频的大小**必须正好是`100`x`100`像素**
@@ -72,13 +88,29 @@ head:
 
 目前通过在线网站可以将gif转成webm格式，如果gif是透明背景，那么转换城的webm格式的表情也是透明背景，在线网站地址：[GIF转WEBM](https://cdkm.com/cn/gif-to-webm)
 
-在转换的时候设置转换项->`视频尺寸`->`自定义`，设置成`512px` `512px`，进行转换完成后，下载下来。
+在转换的时候设置转换项->`视频尺寸`->`自定义`，设置成`512px`*`512px`，进行转换完成后，下载下来。
 
 上传过程同上描述。先创建动态贴纸名称，上传，对应emoji表情，上传完成设置贴纸地址即可分享使用。
 
-## 其他
+## 即时创建贴纸
 
-您也可以使用下面的第三方Telegram机器人，更方便地创建贴纸包：
+Telegram支持在聊天时即时创建贴纸，具体操作如下：
+
+1. 随意打开一个对话，点击贴纸图标
+2. 点击 `创建` 
+3. 上传图片，支持裁剪、抠图、添加轮廓等操作
+4. 完成后点击右下角按钮选择对应的emoji表情并保存，支持：直接发送、添加到收藏，或者添加到已有的贴纸包
+
+::: details 操作演示
+
+![android-createsticker4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/createsticker4.jpg)
+
+:::
+
+## 将已有贴纸创建为贴纸包
+
+以下第三方Telegram机器人支持将已有的贴纸添加到一个新的贴纸包，您可以通过此类机器人快速创建个人贴纸合集：
 
 - [@fStikBot](https://t.me/fStikBot)
 - [@KyStkrBot](https://t.me/KyStkrBot)
+

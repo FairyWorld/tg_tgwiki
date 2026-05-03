@@ -17,12 +17,12 @@ head:
 
 - 所有平台客户端，输入框内搜索你的"用户名"即可看到"收藏夹"。
 - iOS客户端：`设置`->`收藏夹`。
-- Android客户端：`左上角三短线`->`收藏夹`。
+- Android客户端：`右上角三个点`->`收藏夹`。
 - macOS客户端：`点击搜索框`->`收藏夹`；快捷键：`Ctrl`+`0`
 - Desktop客户端：`左上角三短线-`>`点击你的头像/收藏夹图标`；快捷键：`Ctrl`+`0`
 
 ::: details 界面截图
 
-![tfa-favourite.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/favourite.jpg)
+![android-favourite.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/favourite.jpg)
 
 :::

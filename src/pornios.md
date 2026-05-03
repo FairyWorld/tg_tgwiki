@@ -30,17 +30,17 @@ Telegram如果你进入某个群或频道遇到如下提示：
 
 ::: details 操作演示
 
-![td-pornios.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/td/pornios.jpg)
+![desktop-pornios.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/desktop/pornios.jpg)
 
 :::
 
 ### 方法二
 
-打开Telegram for Android客户端，`设置`->`外观`->打开`显示18+内容`。
+打开Telegram for Android客户端，`设置`->`聊天设置`->打开`显示18+内容`。
 
 ::: details 操作演示
 
-![tfa-pornios.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/pornios.jpg)
+![android-pornios.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/pornios.jpg)
 
 :::
 

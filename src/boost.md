@@ -24,7 +24,9 @@ head:
 
 ::: details 界面截图
 
-![tfa-boost1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/boost1.jpg)
+![android-boost1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/boost1.jpg)
+
+![android-boost2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/boost2.jpg)
 
 :::
 
@@ -38,7 +40,7 @@ head:
 
   ::: details 界面截图
 
-  ![tfa-boost2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/boost2.jpg)
+  ![android-boost3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/boost3.jpg)
 
   :::
 

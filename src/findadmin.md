@@ -7,8 +7,6 @@ head:
       content: Telegram找出管理员,Telegram查找群管理员,TG找出管理员,TG查找群管理员,电报找出管理员,电报查找群管理员,TGwiki,Telegram知识库
 ---
 
-# Telegram找出群管理员
-
 ## 通用方法
 
 - 方法1：对话消息中，成员后带有"创建者"或"管理员"或其他自定义头衔的都是管理员。

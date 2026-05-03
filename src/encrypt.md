@@ -26,7 +26,7 @@ head:
 
 ::: details 操作演示
 
-![tfa-encrypt.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/encrypt.jpg)
+![android-encrypt.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/encrypt.jpg)
 
 :::
 

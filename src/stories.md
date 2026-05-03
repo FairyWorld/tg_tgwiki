@@ -16,17 +16,11 @@ head:
 - 可设置查看权限，如仅限联系人查看等
 - 可转发和分享动态
 - 手机端才能发布动态，PC端只能查看
-- 大多数地区需要订阅Telegram Premium才能使用动态功能。
-
-::: tip
-
-目前已知的无需订阅Premium就可以发布动态的国家/地区：澳大利亚、阿塞拜疆、白俄罗斯、塞浦路斯、爱沙尼亚、德国、伊拉克、以色列、哈萨克斯坦、吉尔吉斯斯坦、老挝、摩洛哥、波兰、葡萄牙、罗马尼亚、斯洛文尼亚、斯里兰卡、瑞典、泰国、土耳其、英国、乌兹别克斯坦、印度尼西亚、美国、越南、埃塞俄比亚、中国、日本、阿根廷、象牙海岸、巴西、蒙古、不丹、科索沃、波利尼西亚
-
-:::
+- 所有用户均可以发布动态，Telegram Premium具有更高的上限
 
 ::: details 操作演示
 
-![tfa-stories.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/stories.jpg)
+![android-stories.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/stories.jpg)
 
 :::
 

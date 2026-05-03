@@ -13,14 +13,14 @@ head:
 **"新建群组"在哪儿？**
 
 - iOS客户端：`对话`->`右上角最右边一个图标`->`新建群组`
-- Android客户端：`左上角三短线`->`新建群组`
+- Android客户端：`主界面右下角新建聊天图标`->`新建群组`
 - Desktop客户端：`左上角三短线`->`新建群组`
 - macOS客户端：`主界面搜索框后面图标`->`新建群组`
 
 ::: details 界面截图
 
-![tfa-menu.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/menu.jpg)
+![android-create.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/create.jpg)
 
-![td--menu.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/td/menu.jpg)
+![desktop-menu.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/desktop/menu.jpg)
 
 :::

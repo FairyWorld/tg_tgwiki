@@ -21,7 +21,7 @@ Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，
 
   ::: details 操作演示
 
-  ![tfa-editphoto1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/editphoto1.jpg)
+  ![android-editphoto1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/editphoto1.jpg)
 
   :::
 
@@ -29,7 +29,7 @@ Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，
 
   ::: details 操作演示
 
-  ![td-editphoto1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/td/editphoto1.jpg)
+  ![desktop-editphoto1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/desktop/editphoto1.jpg)
 
   :::
 
@@ -44,9 +44,9 @@ Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，
 
   ::: details 操作演示
 
-  ![tfa-editphoto2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/editphoto2.jpg)
+  ![android-editphoto2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/editphoto2.jpg)
 
-  ![tfa-editphoto3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/editphoto3.jpg)
+  ![android-editphoto3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/editphoto3.jpg)
 
   :::
 
@@ -54,7 +54,7 @@ Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，
 
   ::: details 操作演示
 
-  ![td-editphoto2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/td/editphoto2.jpg)
+  ![desktop-editphoto2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/desktop/editphoto2.jpg)
 
   :::
 
@@ -64,15 +64,15 @@ Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，
 
 ::: details 操作演示（移动端）
 
-![tfa-editphoto4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/editphoto4.jpg)
+![android-editphoto4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/editphoto4.jpg)
 
-![tfa-editphoto5.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/editphoto5.jpg)
+![android-editphoto5.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/editphoto5.jpg)
 
 :::
 
 ::: details 操作演示（电脑端）
 
-![td-editphoto3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/td/editphoto3.jpg)
+![desktop-editphoto3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/desktop/editphoto3.jpg)
 
 :::
 
@@ -82,7 +82,7 @@ Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，
 
   ::: details 操作演示
 
-  ![tfa-editphoto6.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/editphoto6.jpg)
+  ![android-editphoto6.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/editphoto6.jpg)
 
   :::
 
@@ -90,6 +90,6 @@ Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，
 
   ::: details 操作演示
 
-  ![td-editphoto4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/td/editphoto4.jpg)
+  ![desktop-editphoto4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/desktop/editphoto4.jpg)
 
   :::

@@ -17,7 +17,6 @@ head:
 
 |     名称     |                             简介                             |      适用系统       |                           下载地址                           |
 | :----------: | :----------------------------------------------------------: | :-----------------: | :----------------------------------------------------------: |
-|   Nekogram   |  Nekogram是一个修改不多但都很有用的开源第三方Telegram客户端  |       Android       | [GitHub](https://github.com/Nekogram/Nekogram/releases) / [Telegram Channel](https://t.me/NekogramAPKs) / [Google Play](https://play.google.com/store/apps/details?id=tw.nekomimi.nekogram) |
 |    Neko X    | Neko X是一款免费开源的第三方Telegram客户端，基于Telegram-FOSS并添加了功能 |       Android       | [GitHub](https://github.com/NekoX-Dev/NekoX/releases) / [Telegram Channel](https://t.me/NekoXAPKs) / [F-Droid](https://f-droid.org/packages/nekox.messenger/) |
 |    Nagram    | Nagram是一个基于 NekoX 并进行了一些修改的第三方Telegram客户端 [<Badge text="详情" vertical="middle" />](./nagram.html) |       Android       | [GitHub](https://github.com/NextAlone/Nagram/releases) / [Telegram Channel](https://t.me/nagram_channel) |
 |   Nullgram   | Nullgram是一款免费开源的第三方Telegram客户端，基于Android版Telegram App的官方源代码 |       Android       | [GitHub](https://github.com/qwq233/Nullgram/releases/) / [Telegram Channel](https://t.me/NullgramClient) |

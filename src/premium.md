@@ -34,11 +34,11 @@ head:
 
 ::: details 界面截图
 
-![tfa-premium1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/premium1.jpg)
+![android-premium1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/premium1.jpg)
 
-![tfa-premium2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/premium2.jpg)
+![android-premium2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/premium2.jpg)
 
-![tfa-premium3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/premium3.jpg)
+![android-premium3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/premium3.jpg)
 
 :::
 

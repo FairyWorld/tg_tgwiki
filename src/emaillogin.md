@@ -43,9 +43,9 @@ head:
 
    ::: details 操作演示
 
-   ![tfa-emaillogin1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/emaillogin1.jpg)
+   ![android-emaillogin1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/emaillogin1.jpg)
 
-   ![tfa-emaillogin2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/emaillogin2.jpg)
+   ![android-emaillogin2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/emaillogin2.jpg)
 
    :::
 
@@ -53,7 +53,7 @@ head:
 
    ::: details 界面截图
 
-   ![privacy1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/privacy1.jpg)
+   ![android-privacy1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/privacy1.jpg)
 
    :::
 

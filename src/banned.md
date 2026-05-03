@@ -11,7 +11,7 @@ head:
 
 ::: details 界面截图
 
-![tfa-banned.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/banned.jpg)
+![android-banned.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/banned.jpg)
 
 :::
 

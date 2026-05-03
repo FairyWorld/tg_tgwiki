@@ -8,21 +8,19 @@ head:
       content: Telegram中文语言包,Telegram语言包,Telegram中文,Telegram汉化,TG中文语言包,TG语言包,TG中文,TG汉化,电报中文语言包,电报语言包,电报中文,电报汉化
 ---
 
-# Telegram 中文语言包
+::: tip
 
-点击相应链接即可安装语言包，将界面汉化为中文。
-
-::: warning
-
-Telegram网页版不支持使用语言包。
+自2026年4月起，Telegram官方已支持中文语言。您可以前往 `设置`->`语言` 修改界面语言为中文。
 
 :::
 
 ::: details 界面截图
 
-![tfa-language.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/language.jpg)
+![android-language.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/language.jpg)
 
 :::
+
+下面提供一些个性化语言包，点击链接即可安装（*注：网页版无法使用语言包*）：
 
 ## 简体中文语言包
 
@@ -62,16 +60,6 @@ Telegram网页版不支持使用语言包。
 - [繁体中文（香港）-廣東話](https://t.me/setlanguage/cantonese)
 - [繁体中文（台灣）-文言](https://t.me/setlanguage/chinese-ancient)
 - [繁体中文（台灣）-魔法師](https://t.me/setlanguage/encha)
-
-## 说明
-
-Telegram官方只开放了语言包翻译接口，并没有提供中文语言包，目前所有的中文语言包都是非官方用户翻译的。有些语言包都很久没更新了（甚至停更了）。大家择优使用即可。
-
-::: tip
-
-如果遇到不能汉化的，请先把Telegram客户端升级新版。
-
-:::
 
 ::: info
 

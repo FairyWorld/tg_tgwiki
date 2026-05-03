@@ -252,7 +252,7 @@ highlights:
       - title: 私聊机器人搭建
         icon: reply-all
         details: 搭建私聊机器人，方便被双向限制的用户私聊
-        link: /livegram.html
+        link: /relaygo.html
       - title: 小程序
         icon: window-restore
         details: 创建Web应用程序，提供无缝且灵活的用户体验
@@ -324,6 +324,10 @@ highlights:
         icon: envelope-open-text
         details: 开启邮箱登录，通过邮箱接收验证码登录Telegram
         link: /emaillogin.html
+      - title: 通行密钥
+        icon: key
+        details: 设置通行密钥，更安全、便捷的登录Telegram
+        link: /passkey.html
       - title: 未收到验证码
         icon: comment-sms
         details: 注册登录时没有收到验证码的解决方案

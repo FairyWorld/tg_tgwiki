@@ -25,7 +25,7 @@ head:
 
   ::: details 界面截图
 
-  ![tfa-monetization1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/monetization1.jpg)
+  ![android-monetization1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/monetization1.jpg)
 
   :::
 
@@ -58,7 +58,7 @@ head:
 
   ::: details 操作演示
 
-  ![tfa-monetization2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/monetization2.jpg)
+  ![android-monetization2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/monetization2.jpg)
 
   :::
 

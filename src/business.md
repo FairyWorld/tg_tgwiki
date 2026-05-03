@@ -1,17 +1,17 @@
 ---
 title: Business
-description: Telegram于10.9.1版本中推出了Telegram商业版（Telegram Business）。本文介绍了Telegram大商业版的专属功能，以及如何开通Telegram商业版。
+description: Telegram于10.9.1版本中推出了Telegram企业版（Telegram Business）。本文介绍了Telegram大商业版的专属功能，以及如何开通Telegram企业版。
 head:
   - - meta
     - name: keywords
-      content: Telegram Business,Telegram商业版,Telegram商业,TG Business,TG商业版,TG商业,电报Business,电报商业版,电报商业
+      content: Telegram Business,Telegram企业版,Telegram商业版,TG Business,TG企业版,TG商业版,电报Business,电报企业版,电报商业版
 ---
 
-Telegram于`10.9.1`版本中推出了Telegram商业版（Telegram Business），这是Telegram进一步商业化的一个标志。
+Telegram于`10.9.1`版本中推出了Telegram企业版（Telegram Business），这是Telegram进一步商业化的一个标志。
 
 ## 专属功能
 
-您可以在`设置`->`Telegram Business`中修改以下设置。
+您可以在`设置`->`Telegram企业版`中修改以下设置。
 
 - 企业位置
 
@@ -41,13 +41,13 @@ Telegram于`10.9.1`版本中推出了Telegram商业版（Telegram Business），
 
 ::: details 界面截图
 
-![tfa-business.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/business.jpg)
+![android-business.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/business.jpg)
 
 :::
 
 ## 开通方式
 
-截至Telegram For Android `v11.12.0`、Telegram Desktop `v5.15.3`，Telegram Premium用户可以暂时体验Telegram Business的全部功能。Telegram官方称会单独增加Telegram Business订阅，具体时间未知。
+截至2026年4月，Telegram Premium用户仍可以暂时体验Telegram Business的全部功能。Telegram官方称会单独增加Telegram Business订阅，具体时间未知。
 
 ::: info
 

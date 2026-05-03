@@ -12,13 +12,14 @@ head:
 ## 移动端
 
 - iOS：对话末尾处向左滑动对话可以归档对话。
-- Android：`对话列表`->`长按对话`->`归档`；归档会在对话列表顶部会显示一栏"已归档对话"。
+- Android：`对话列表`->`长按对话`->`归档`，或对话末尾处向左滑动。
+- 归档会在对话列表顶部会显示一栏"已归档对话"。
 - 已归档的对话，向左滑动可以取消归档。
 - "已归档对话"一栏，向左滑动可以隐藏，对话列表下拉即可显示出"已归档对话"一栏，再向左滑就可以置顶显示。
 
 ::: details 界面截图
 
-![tfa-archive.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/archive.jpg)
+![android-archive.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/archive.jpg)
 
 :::
 
@@ -31,7 +32,7 @@ head:
 
 ::: details 界面截图
 
-![td-archive.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/td/archive.jpg)
+![desktop-archive.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/desktop/archive.jpg)
 
 :::
 

@@ -7,15 +7,15 @@ head:
       content: Telegram隐私,Telegram隐私设置,Telegram保护隐私,Telegram两步验证,Telegram隐藏手机号码,Telegram隐藏上线时间,TG隐私,TG隐私设置,TG保护隐私,TG两步验证,TG隐藏手机号码,TG隐藏上线时间,电报隐私,电报隐私设置,电报保护隐私,电报两步验证,电报隐藏手机号码,电报隐藏上线时间
 ---
 
-`设置`->`隐私`：
+`设置`->`隐私和安全`：
 
 ::: details 界面截图
 
-![tfa-privacy1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/privacy1.jpg)
+![android-privacy1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/privacy1.jpg)
 
-![tfa-privacy2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/privacy2.jpg)
+![android-privacy2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/privacy2.jpg)
 
-![tfa-privacy3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/privacy3.jpg)
+![android-privacy3.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/privacy3.jpg)
 
 :::
 
@@ -35,7 +35,7 @@ head:
 
 ::: details 操作演示
 
-![tfa-2fa.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/2fa.jpg)
+![android-2fa.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/2fa.jpg)
 
 :::
 
@@ -53,17 +53,27 @@ head:
 
 设置锁定密码后，会话顶部会出现一个锁定图标。此设置可以防止他人查看您的Telegram信息。
 
+### 通行密钥
+
+您可以创建通行密钥。使用通行密钥登录将不再需要手机号验证码，但2FA密码仍然需要。
+
+::: info
+
+关于通行密钥功能的介绍，请参阅 [此处](./passkey.html) 。
+
+:::
+
 ### 登录邮箱
 
 已开启邮箱登录的账号会显示此条目，您可以在此处更改登录邮箱。
 
 ::: info
 
-想要开启邮箱登录？请参阅 [此处](./emaillogin.html) 。
+想要开启邮箱登录？请按照 [此处](./emaillogin.html) 的教程操作。
 
 :::
 
-### 拉黑用户
+### 已屏蔽的用户
 
 您拉黑的用户列表，您可以在此处进行拉黑或取消拉黑操作。
 
@@ -81,7 +91,7 @@ head:
 
 ::: details 界面截图
 
-![tfa-device.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/device.jpg)
+![android-device.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/android/device.jpg)
 
 :::
 
@@ -93,13 +103,13 @@ head:
 
 ::: important
 
-为了您的隐私安全，请将手机号码设置为`联系人`或`没有人`，例外设置为`无`，以防止泄露手机号码。
+为了您的隐私安全，请将手机号码设置为`联系人`或`不允许任何人`，例外设置为`无`，以防止泄露手机号码。
 
 :::
 
-### 上线状态
+### 上线时间和在线状态
 
-设置哪些用户可以看到您的上线状态。当上线状态设置为`联系人`或`没有人`时，您可以隐藏私聊消息的已读时间。
+设置哪些用户可以看到您的上线状态。当上线状态设置为`联系人`或`不允许任何人`时，您可以隐藏私聊消息的已读时间。
 
 ::: tip
 
@@ -123,9 +133,9 @@ head:
 
 ::: important
 
-为了您的隐私安全，请将通话权限设置为`联系人`或`没有人`，防止广告骚扰。
+为了您的隐私安全，请将通话权限设置为`联系人`或`不允许任何人`，防止广告骚扰。
 
-启用端到端连接会泄露你的IP地址，建议将端到端连接设置为`没有人`，例外设置为`无`。
+启用端到端连接会泄露你的IP地址，建议将端到端连接设置为`不允许任何人`，例外设置为`无`。
 
 :::
 
@@ -139,7 +149,7 @@ head:
 
 :::
 
-### 私聊设置
+### 私聊消息
 
 设置谁可以给您发送私聊消息，默认为`所有人`。
 
@@ -157,13 +167,17 @@ head:
 
 您可以设置哪些用户可以在您的个人主页上看到礼物，Telegram Premium用户可以修改`接受的礼物类型`。
 
+### 保存的音乐
+
+设置谁可以看到个人主页上的音乐列表（歌单），支持的选项：`所有人`/`我的联系人`/`不允许任何人`。
+
 ### 邀请设置
 
 设置哪些人可以拉你进入群组/频道。
 
 ::: important
 
-为了您的隐私安全，请将邀请设置改为`联系人`或`没有人`，防止广告骚扰。
+为了您的隐私安全，请将邀请设置改为`联系人`或`不允许任何人`，防止广告骚扰。
 
 :::
 
