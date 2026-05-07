@@ -1,7 +1,16 @@
 <script setup>
+import { onMounted, onUnmounted } from 'vue';
 // 从 vuepress-theme-hope 的客户端库导入 Layout 组件
 import { Layout } from "vuepress-theme-hope/client";
 import AiAssistant from '../components/aiAssistant.vue' 
+
+onMounted(() => {
+  document.documentElement.classList.add('ai-layout-active');
+});
+
+onUnmounted(() => {
+  document.documentElement.classList.remove('ai-layout-active');
+});
 </script>
 
 <template>
@@ -19,11 +28,11 @@ import AiAssistant from '../components/aiAssistant.vue'
 </template>
 
 <style>
-/* 彻底消除页面最右侧的浏览器全局滚动条，锁定全屏应用状态 */
-html,
-body,
-.theme-container,
-#app {
+/* 彻底消除页面最右侧的浏览器全局滚动条，锁定全屏应用状态（仅在激活 AI 助手布局时生效） */
+html.ai-layout-active,
+html.ai-layout-active body,
+html.ai-layout-active .theme-container,
+html.ai-layout-active #app {
   overflow: hidden !important;
   height: 100vh !important;
 }

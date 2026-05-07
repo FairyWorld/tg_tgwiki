@@ -207,7 +207,16 @@ const scrollToBottom = () => {
 <template>
   <div class="ai-assistant-container">
     <div class="assistant-header">
-      <div class="header-icon">🤖</div>
+      <div class="header-icon">
+        <svg class="header-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 8V4H8"></path>
+          <rect width="16" height="12" x="4" y="8" rx="2"></rect>
+          <path d="M2 14h2"></path>
+          <path d="M20 14h2"></path>
+          <path d="M15 13v2"></path>
+          <path d="M9 13v2"></path>
+        </svg>
+      </div>
       <div class="header-info">
         <h1 class="assistant-title">TGwikiAI [测试版]</h1>
         <p class="assistant-subtitle">基于TGwiki文档内容训练的智能助手</p>
@@ -221,17 +230,28 @@ const scrollToBottom = () => {
         :class="['message-wrapper', msg.role === 'user' ? 'user-wrapper' : 'assistant-wrapper']"
       >
         <div class="avatar" :class="msg.role === 'user' ? 'user-avatar' : 'assistant-avatar'">
-          {{ msg.role === 'user' ? '👤' : '🤖' }}
+          <svg v-if="msg.role === 'user'" class="avatar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <svg v-else class="avatar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 8V4H8"></path>
+            <rect width="16" height="12" x="4" y="8" rx="2"></rect>
+            <path d="M2 14h2"></path>
+            <path d="M20 14h2"></path>
+            <path d="M15 13v2"></path>
+            <path d="M9 13v2"></path>
+          </svg>
         </div>
         <div class="message-bubble-container">
           <div class="message-bubble" :class="msg.role === 'user' ? 'user-bubble' : 'assistant-bubble'">
             <div v-html="formatMessage(msg.text)" class="markdown-content"></div>
           </div>
           <em v-if="msg.role === 'assistant' && msg.isAI" class="ai-disclaimer">
-            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10"></circle>
-              <line x1="12" y1="16" x2="12" y2="12"></line>
-              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              <path d="M12 16v-4"></path>
+              <path d="M12 8h.01"></path>
             </svg>
             内容由 AI 生成，请仔细甄别
           </em>
@@ -240,12 +260,21 @@ const scrollToBottom = () => {
       
       <!-- ChatGPT style thinking/loading state -->
       <div v-if="isLoading" class="message-wrapper assistant-wrapper loading-wrapper">
-        <div class="avatar assistant-avatar">🤖</div>
+        <div class="avatar assistant-avatar">
+          <svg class="avatar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 8V4H8"></path>
+            <rect width="16" height="12" x="4" y="8" rx="2"></rect>
+            <path d="M2 14h2"></path>
+            <path d="M20 14h2"></path>
+            <path d="M15 13v2"></path>
+            <path d="M9 13v2"></path>
+          </svg>
+        </div>
         <div class="message-bubble-container">
           <div class="message-bubble assistant-bubble loading-bubble">
             <div class="thinking-process">
               <div class="thinking-spinner"></div>
-              <span class="thinking-label">正在查阅知识库并思考...</span>
+              <span class="thinking-label">正在查阅知识库...</span>
             </div>
             <div class="typing-indicator">
               <span></span>
@@ -278,7 +307,7 @@ const scrollToBottom = () => {
         </button>
       </div>
       <div class="input-footer">
-        TGwikiAI 可能会犯错。请核查重要信息。
+        TGwikiAI 可能会犯错。回答仅供参考，请以文档为准。
       </div>
     </div>
   </div>
