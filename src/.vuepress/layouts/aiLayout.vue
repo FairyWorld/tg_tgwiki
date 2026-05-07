@@ -37,10 +37,10 @@ html.ai-layout-active #app {
   height: 100vh !important;
 }
 
-/* 彻底隐藏当前页面（布局）下默认的页脚 footer */
-.vp-footer,
-.footer-wrapper,
-.footer {
+/* 彻底隐藏当前页面（布局）下默认的页脚 footer （仅在激活 AI 助手布局时生效） */
+html.ai-layout-active .vp-footer,
+html.ai-layout-active .footer-wrapper,
+html.ai-layout-active .footer {
   display: none !important;
 }
 
