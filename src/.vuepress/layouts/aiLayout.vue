@@ -16,10 +16,17 @@ import AiAssistant from '../components/aiAssistant.vue'
 </template>
 
 <style>
-/* 确保内容区域在主题布局内正确显示 */
+/* 确保内容区域在主题布局内正确显示，并完美同步 VuePress 侧边栏与顶部导航栏的避让逻辑 */
 .ai-assistant-page {
-  /* 确保占据合理的垂直空间 */
   min-height: 80vh; 
-  padding: 2rem 0;
+  padding: calc(var(--navbar-height, 3.75rem) + 2rem) 1rem 2rem 1rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 960px) {
+  .ai-assistant-page {
+    /* 在宽屏桌面端，强制加上左边距和顶部距离，避让侧边栏与顶部栏 */
+    padding: calc(var(--navbar-height, 3.75rem) + 2rem) 2.5rem 2rem calc(var(--sidebar-width, 20rem) + 2.5rem);
+  }
 }
 </style>

@@ -93,7 +93,7 @@ export default navbar([
           {
             text: "私聊机器人搭建",
             icon: "reply-all",
-            link: "/livegram.html"
+            link: "/relaygo.html"
           },
           {
             text: "Premium",
