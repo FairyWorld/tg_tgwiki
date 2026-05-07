@@ -209,8 +209,8 @@ const scrollToBottom = () => {
     <div class="assistant-header">
       <div class="header-icon">🤖</div>
       <div class="header-info">
-        <h1 class="assistant-title">TGwikiAI</h1>
-        <p class="assistant-subtitle">基于文档内容训练的智能助手 [测试版]</p>
+        <h1 class="assistant-title">TGwikiAI [测试版]</h1>
+        <p class="assistant-subtitle">基于TGwiki文档内容训练的智能助手</p>
       </div>
     </div>
     
@@ -295,6 +295,9 @@ const scrollToBottom = () => {
   --theme-color-resolved: var(--theme-color, var(--vp-c-accent, var(--vp-c-brand, var(--c-brand, #3eaf7c))));
   max-width: 800px;
   width: 100%;
+  height: 100%;
+  flex: 1;
+  min-height: 0;
   margin: 0 auto;
   padding: 12px;
   border: 1px solid #e2e8f0;
@@ -350,8 +353,7 @@ const scrollToBottom = () => {
 
 /* 聊天内容区域 */
 .conversation-area {
-  max-height: 480px; 
-  min-height: 250px;
+  flex: 1;
   overflow-y: auto;
   padding-right: 8px;
   display: flex;
@@ -408,7 +410,7 @@ const scrollToBottom = () => {
 
 /* 气泡本体 */
 .message-bubble {
-  padding: 6px 12px;
+  padding: 10px 16px;
   border-radius: 18px;
   font-size: 14.5px;
   line-height: 1.6;
@@ -875,6 +877,7 @@ html[data-theme="dark"] .markdown-content :deep(.inline-code),
     border: none !important;
     box-shadow: none !important;
     background-color: transparent !important;
+    height: 100% !important;
   }
 
   /* 移动端深色模式下同样去除多重边框与多重背景，使其与整体页面底色完美融合 */

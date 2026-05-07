@@ -364,6 +364,6 @@ highlights:
         icon: circle-question
         link: /faq.html
 
-footer: Copyright © 2025 <a href="https://wiki.tgnav.org/" target="_blank">TGwiki</a> by <a href="https://www.tgnav.org/" target="_blank">TGNAV</a><br/><span id="busuanzi_container_site_pv">本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
+footer: Copyright © 2026 <a href="https://wiki.tgnav.org/" target="_blank">TGwiki</a> by <a href="https://www.tgnav.org/" target="_blank">TGNAV</a><br/><span id="busuanzi_container_site_pv">本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
 ---
 
