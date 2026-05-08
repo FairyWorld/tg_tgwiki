@@ -327,5 +327,10 @@ export default sidebar({
         },
       ],
     },
+    {
+      text: "TGwikiAI",
+      icon: "microchip",
+      link: "/ai.html"
+    }
   ],
 });
